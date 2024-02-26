@@ -5,30 +5,10 @@ import { Button, Img, Input, Line, Text } from "components";
 export default function About(){
     return(
         <>
-            <div style={{marginBottom:"50px"}} className="bg-white-A700 flex flex-col font-montserrat items-center justify-start mx-auto w-full">
+            <div style={{marginBottom:"50px" , width: "100%"}} >
                 <div className="flex flex-col items-end justify-start w-auto md:w-full">
                 <div className="h-[620px] outline outline-blue-100 md:px-5 relative w-full">
                     <div className="h-[620px] m-auto w-full">
-                        <div className="flex flex-col md:gap-10 gap-[84px] h-full justify-start m-auto w-full">
-                            <Img
-                            className="h-[119px] md:h-auto object-cover"
-                            src="images/img_group1261152815.png"
-                            alt="group1261152815"
-                            />
-                            <div className="flex h-[417px] justify-end md:ml-[0] ml-[851px] relative w-[41%] sm:w-full">
-                                <Img
-                                    style={{marginLeft: "50px"}}
-                                    className="h-[373px] ml-auto mt-auto object-cover w-[93%]"
-                                    src="images/img_ellipse1.png"
-                                    alt="ellipseOne"
-                                />
-                                <Img
-                                    className="absolute h-[417px] inset-[0] justify-center m-auto object-cover w-full"
-                                    src="images/img_ellipse2.png"
-                                    alt="ellipseTwo"
-                                />
-                            </div>
-                        </div>
                         <div className="absolute flex flex-col md:gap-10 gap-[60px] items-start justify-start left-[5%] top-[13%] w-auto">
                             <div className="flex flex-col items-start justify-start w-auto md:w-full">
                             <div className="flex flex-col gap-6 items-center justify-start w-auto md:w-full">
