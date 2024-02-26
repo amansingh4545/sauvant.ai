@@ -6,10 +6,10 @@ import { Button, Img, Input, Line, Text } from "components";
 
 function Footer(){
     return(
-        <div style={{width:"90%", margin:"auto"}} className="F1">
+        <div className="F1" style={{width:"100%", margin:"auto"}}>
             <div className="F2">
               <div className="F3">
-                <Img className="h-[72px] md:h-auto object-cover w-[86px]" src="images/img_creditsea1.png" alt="creditseaOne_One" />
+                <Img className="h-[72px] md:h-auto object-cover w-[80px]" src="images/img_creditsea1.png" alt="creditseaOne_One" />
                 <div className="H_5">
                     <Text className="H_6" size="txtMories24" > CREDITSEA </Text>
                     <Text className="H_7" size="txtMories24"> TRUST. COMFORT. PROSPER </Text>
@@ -19,8 +19,8 @@ function Footer(){
               <div className="font-montserrat h-[260px] sm:h-[521px] relative w-[77%] md:w-full">
                 <div>
                   <Img className="absolute h-[260px] inset-y-[0] my-auto object-cover right-[0]" src="images/img_vector_light_blue_400_260x385.png" alt="vector_Two" />
-                  <div className="absolute flex sm:flex-col flex-row sm:gap-10 gap-20 h-max inset-y-[0] items-start justify-between left-[0] my-auto w-auto">
-                    <div className="flex flex-col items-start justify-start">
+                  <div style={{ marginLeft:"20px"}} className="absolute flex sm:flex-col flex-row sm:gap-10 gap-10 h-max inset-y-[0] items-start justify-between left-[0] my-auto w-auto">
+                    <div style={{ marginRight:"30px"}} className="flex flex-col items-start justify-start">
                       <Text className="text-base text-white-A700" size="txtMontserratRomanBold16" >
                         Services
                       </Text>
@@ -29,9 +29,8 @@ function Footer(){
                         <Link to="#">Lorem ipsum</Link>
                         <Link to="#">Lorem ipsum</Link>
                       </div>
-                      
                     </div>
-                    <div style={{color: "white"}} className="flex flex-col gap-4 items-start justify-start w-auto">
+                    <div style={{color: "white", marginRight:"30px"}} className="flex flex-col gap-4 items-start justify-start w-auto">
                       <Text className="text-base text-white-A700 w-auto" size="txtMontserratRomanBold16" >
                         Other Links
                       </Text>
@@ -62,17 +61,15 @@ function Footer(){
                         01140848286
                       </Text>
                     </div>
-                    <div className="flex flex-col items-start justify-start w-auto">
-                      <Text
-                        className="text-base text-white-A700 w-auto"
-                        size="txtMontserratRomanBold16"
-                      >
-                        App Store Links
-                      </Text>
+                    <div className="F6">
+                      
                     </div>
                   </div>
                 </div>
-                <div className="absolute bottom-[19%] flex flex-col gap-4 items-center justify-start right-[14%] w-auto">
+                <div className=" F7 absolute bottom-[19%] flex flex-col gap-4 items-center justify-start right-[14%] w-auto">
+                  <Text className="text-base text-white-A700 w-auto" size="txtMontserratRomanBold16" >
+                      App Store Links
+                  </Text>
                   <div className="bg-white-A700 flex flex-col h-[54px] md:h-auto items-center justify-center sm:px-5 px-6 py-[9px] rounded-[10px] shadow-bs2 w-[244px]">
                     <Img
                       className="h-10 md:h-auto object-cover w-36"
@@ -80,7 +77,7 @@ function Footer(){
                       alt="imageFortySix"
                     />
                   </div>
-                  <div className="bg-white-A700 flex flex-col h-[54px] md:h-auto items-center justify-center sm:px-5 px-6 py-[9px] rounded-[10px] shadow-bs2 w-[244px]">
+                  <div className=" bg-white-A700 flex flex-col h-[54px] md:h-auto items-center justify-center  rounded-[10px] shadow-bs2 w-[244px]">
                     <Img
                       className="h-10 md:h-auto object-cover w-[139px]"
                       src="images/img_image47.png"
