@@ -5,7 +5,7 @@ import { Button, Img, Input, Line, Text } from "components";
 export default function Step(){
     return(
         <>
-            <div style={{width: "90.5%" , margin: "auto"}} className="bg-blue-900_01 flex flex-col gap-[58px] items-center justify-end pt-[60px] w-full">
+            <div style={{width: "100%" , margin: "auto"}} className="bg-blue-900_01 flex flex-col gap-[58px] items-center justify-end pt-[60px] w-full">
               <Text className="text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl" size="txtMontserratBold24" >
                 Loan in 3 Simple Steps
               </Text>
@@ -34,13 +34,13 @@ export default function Step(){
                       </div>
                     </div>
                     <Img
-                      className="absolute bottom-[0] h-[237px] object-cover right-[0]"
+                      className="absolute bottom-[0] h-[200px] object-cover right-[0]"
                       src="images/img_vector.png"
                       alt="vector"
                     />
                   </div>
                   <Img
-                    className="absolute bottom-[0] h-[237px] left-[0] object-cover"
+                    className="absolute bottom-[0] h-[200px] left-[0] object-cover"
                     src="images/img_vector_light_blue_400.png"
                     alt="vector_One"
                   />
