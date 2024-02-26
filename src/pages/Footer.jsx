@@ -19,8 +19,8 @@ function Footer(){
               <div className="font-montserrat h-[260px] sm:h-[521px] relative w-[77%] md:w-full">
                 <div>
                   <Img className="absolute h-[260px] inset-y-[0] my-auto object-cover right-[0]" src="images/img_vector_light_blue_400_260x385.png" alt="vector_Two" />
-                  <div style={{ marginLeft:"10px"}} className="absolute flex sm:flex-col flex-row sm:gap-10 gap-10 h-max inset-y-[0] items-start justify-between left-[0] my-auto w-auto">
-                    <div style={{ marginRight:"20px"}} className="flex flex-col items-start justify-start">
+                  <div style={{ marginLeft:"2px"}} className="absolute flex sm:flex-col flex-row sm:gap-10 gap-10 h-max inset-y-[0] items-start justify-between left-[0] my-auto w-auto">
+                    <div style={{ marginRight:"10px"}} className="flex flex-col items-start justify-start">
                       <Text className="text-base text-white-A700" size="txtMontserratRomanBold16" >
                         Services
                       </Text>
@@ -30,7 +30,7 @@ function Footer(){
                         <Link to="#">Lorem ipsum</Link>
                       </div>
                     </div>
-                    <div style={{color: "white", marginRight:"20px"}} className="flex flex-col gap-4 items-start justify-start w-auto">
+                    <div style={{color: "white", marginRight:"10px"}} className="flex flex-col gap-4 items-start justify-start w-auto">
                       <Text className="text-base text-white-A700 w-auto" size="txtMontserratRomanBold16" >
                         Other Links
                       </Text>
